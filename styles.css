@@ -1,0 +1,95 @@
+/* General Body Styling */
+body {
+    background-color: #424242;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Calculator Container Styling */
+.calculator-container {
+    width: 220px;
+    padding: 15px;
+    background-color: #ABABAB;
+    border-radius: 8px;
+    border: 2px solid #C1C1C1;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Display Styling */
+#display {
+    display: block;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #C1C1C1;
+    background-color: #FFF;
+    font-size: 24px;
+    text-align: right;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #333;
+}
+
+/* Button Row Styling */
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+/* Button Styling */
+.button {
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.digits {
+    background-color: #EBEBEB;
+    color: #333;
+    border: 1px solid #C1C1C1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.math {
+    background-color: #434343;
+    color: #FFF;
+    border: 1px solid #C1C1C1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Hover Effects */
+.button:hover {
+    background-color: #FF8000;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Clear Button Specific Styling */
+#clearButton {
+    background-color: #D20000;
+    color: #FFF;
+    border: 1px solid #FF8484;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#clearButton:hover {
+    background-color: #FF4000;
+}
